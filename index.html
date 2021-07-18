@@ -2,14 +2,25 @@
 <html lang="en">
     <head>
         <title>Google Search</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <a href="image_search.html" >Image Search</a>
-        <a href="advanced_search.html" >Advanced Search</a>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="top_links">
+            <a class="link" href="image_search.html"> Image Search</a>
+            <a class="link" href="advanced_search.html"> Advanced Search</a>
+        </div>
+        <div class="banner">
+            <img src="googlelogo_color_272x92dp.png" alt="Logo">
+        </div>
+        <div>
+            <form action="https://google.com/search">
+                <div class="search_box">
+                    <input type="text" name="q">
+                </div>
+                <div class="search_button">
+                    <input type="submit" value="Google Search">
+                </div>
+            </form>
+        </div>
     </body>
 </html>

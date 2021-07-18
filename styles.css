@@ -1,0 +1,22 @@
+.top_links{
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.link{
+    padding-right: 20px;
+}
+
+.search_box{
+    text-align: center;
+}
+
+.search_button{
+    text-align:center;
+}
+
+.banner{
+    text-align: center;
+}
